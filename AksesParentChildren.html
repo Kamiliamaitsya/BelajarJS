@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <div id="parent">
+            <h1>PARENT ELEMEN</h1>
+            <p>Childern 1</p>
+            <p>Childern 2</p>
+        </div>
+        <script>
+            const parent = document.getElementById("parent");
+            //akses parent
+            console.log("parent node name : ", parent.parentNode.nodeName);
+            //akses childern
+            console.log("all child node : ", parent.childNodes);
+            console.log("only element children : ", parent.children);
+            console.log("first child : ", parent.FristChild);
+            console.log("first element child : ", parent.FristElemenChild);
+        </script>
+    </body>
+</html>
